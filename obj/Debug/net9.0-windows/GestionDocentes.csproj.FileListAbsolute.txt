@@ -12,3 +12,4 @@ C:\Users\Alex\OneDrive\Escritorio\GestionDocentes\obj\Debug\net9.0-windows\refin
 C:\Users\Alex\OneDrive\Escritorio\GestionDocentes\obj\Debug\net9.0-windows\GestionDocentes.pdb
 C:\Users\Alex\OneDrive\Escritorio\GestionDocentes\obj\Debug\net9.0-windows\GestionDocentes.genruntimeconfig.cache
 C:\Users\Alex\OneDrive\Escritorio\GestionDocentes\obj\Debug\net9.0-windows\ref\GestionDocentes.dll
+C:\Users\Alex\OneDrive\Escritorio\GestionDocentes\obj\Debug\net9.0-windows\GestionDocentes.sourcelink.json
