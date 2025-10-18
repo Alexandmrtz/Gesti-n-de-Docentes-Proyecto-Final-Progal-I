@@ -17,10 +17,18 @@ namespace GestionDocentes
 
         private void btnContinuar_Click(object sender, EventArgs e)
         {
-            // Abre el formulario principal y cierra la pantalla de bienvenida
-            Form1 ventanaPrincipal = new Form1();
-            ventanaPrincipal.Show();
-            this.Hide();
+            try 
+            {
+                LoginForm login = new LoginForm();
+                login.Show();
+                // NO usar Close() aquí porque al cerrar el form principal la app puede terminar.
+                // Usamos Hide() para mantener la aplicación viva mientras el login está abierto.
+                this.Hide();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al abrir el formulario de login: " + ex.Message);
+            }
         }
     }
 }
